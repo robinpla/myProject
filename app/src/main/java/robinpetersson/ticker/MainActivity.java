@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity
         Log.d(TAG, "TICKERDEBUG initImageBitmap started");
 
         //Temporary variable to handle date and time
-        Calendar dateTime = Calendar.getInstance();;
+        Calendar dateTime = Calendar.getInstance();
 
         //Current date and time
         Calendar currentDateTime = Calendar.getInstance();
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity
 
                 c.moveToNext();
             }
-
+            c.close();
         }
         catch (Exception e)
         {
